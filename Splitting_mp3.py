@@ -40,10 +40,5 @@ def main():
 
         st.success(f"分割が完了し、'result'フォルダに保存されました。")
 
-        # ダウンロードリンクの作成
-        st.markdown(
-            f"**[ダウンロードリンク](sandbox:/path/{output_folder}/result)**"
-        )
-
 if __name__ == "__main__":
     main()
