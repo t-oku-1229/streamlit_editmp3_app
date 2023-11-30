@@ -1,6 +1,6 @@
 import streamlit as st
 from pydub import AudioSegment
-import ffprobe
+from ffprobe import FFProbe
 import os
 
 # ファイルを5分ごとに区切り、"result"フォルダに保存する関数
