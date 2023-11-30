@@ -1,6 +1,6 @@
 import streamlit as st
 from pydub import AudioSegment
-from ffmpeg
+import ffmpeg
 import os
 
 # ファイルを5分ごとに区切り、"result"フォルダに保存する関数
